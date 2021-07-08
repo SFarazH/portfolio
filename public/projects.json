@@ -1,13 +1,5 @@
 [
-  {
-    "title": "AttendEase",
-    "description": "A web app, primarily for RCOEM students to check their attendance in a user friendly interface, without the hassle in less than half the time!",
-    "github": "https://github.com/SFarazH/attendease",
-    "live": "https://attendease.hopto.org",
-    "tech": ["Python", "Django", "AWS"],
-    "img": "/attendease.png",
-    "ft": true
-  },
+  
   {
     "title": "Application Tracker",
     "description": "Created a full stack application to help users save their job application details at a single place with details such as - Company, Role and Status. <br/>Added notes section to note important points and Resume section to save different resumes for specific roles.",
@@ -24,6 +16,15 @@
     "live": "https://company-finance.vercel.app/",
     "tech": ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     "img": "/company_finance.png",
+    "ft": true
+  },
+  {
+    "title": "AttendEase",
+    "description": "A web app, primarily for RCOEM students to check their attendance in a user friendly interface, without the hassle in less than half the time!",
+    "github": "https://github.com/SFarazH/attendease",
+    "live": "https://attendease.hopto.org",
+    "tech": ["Python", "Django", "AWS"],
+    "img": "/attendease.png",
     "ft": true
   },
   {
