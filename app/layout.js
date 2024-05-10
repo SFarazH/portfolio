@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
         <Navbar />
         <ThemeProvider enableSystem={true} attribute="class">
           {children}
-          
         </ThemeProvider>
       </body>
     </html>
