@@ -5,6 +5,39 @@
     "github": "https://github.com/SFarazH/attendease",
     "live": "https://attendease.hopto.org",
     "tech": ["Python", "Django"],
-    "img": "/image.png"
+    "img": "/image.png",
+    "ft": true
+  },
+  {
+    "title": "Algorithmic Trading",
+    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "github": "https://github.com/SFarazH/attendease",
+    "live": "https://attendease.hopto.org",
+    "tech": ["Python", "Jupyter"],
+    "ft": true
+  },
+  {
+    "title": "OTP Verification API",
+    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "github": "https://github.com/SFarazH/attendease",
+    "live": "https://attendease.hopto.org",
+    "tech": ["Node.js", "Express", "MongoDB", "AWS"],
+    "ft": false
+  },
+  {
+    "title": "Portfolio",
+    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "github": "https://github.com/SFarazH/attendease",
+    "live": "https://attendease.hopto.org",
+    "tech": ["nextjs", "Tailwind"],
+    "ft": true
+  },
+  {
+    "title": "Application Tracker",
+    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "github": "https://github.com/SFarazH/attendease",
+    "live": "https://attendease.hopto.org",
+    "tech": ["React", "Express", "Node.js", "MongoDB", "AWS"],
+    "ft": false
   }
 ]

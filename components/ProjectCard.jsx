@@ -8,15 +8,24 @@ import Link from "next/link";
 export default function ProjectCard(props) {
   return (
     <>
-      <div className="md:flex mx-5 rounded-lg my-4 border rounded-3xl overflow-hidden h-fit">
+      <div className="sm:flex mx-5 md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden h-fit gap-4">
         {props.img && (
-          <img
-            src={props.img}
-            className="object-cover md:w-1/2 rounded-t-lg md:rounded-t-none md:rounded-l-lg lg:max-h-full sm:h-56 md:h-auto"
-          />
+          <div className="w-full sm:w-1/2 sm:w-auto md:w-1/2 overflow-hidden py-2 md:p-1 flex items-center justify-center">
+            <img
+              src={props.img}
+              className="object-fill items-center max-h-56 sm:h-100 lg:max-h-full rounded-lg"
+            />{" "}
+            {/**rounded-t-lg md:rounded-t-none md:rounded-l-lg */}
+          </div>
         )}
-        <div className={` p-4  ${props.image ? "w-full md:w-1/2" : "w-full"}`}>
-          <div className="flex justify-between">
+        <div
+          className={`p-4 rounded-lg  ${
+            props.img
+              ? "w-full sm:w-1/2 md:w-1/2 border-x border-b rounded-t-none md:border-l-0 md:rounded-r-lg md:border-r md:border-y md:rounded-l-none  "
+              : "w-full border"
+          }`}
+        >
+          <div className="flex justify-between  ">
             <p className="text-2xl font-bold">{props.title}</p>
             <div className="flex gap-4  items-center">
               <Link href={String(props.github)} target="_blank">
