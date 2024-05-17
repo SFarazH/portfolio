@@ -15,10 +15,10 @@ export default function ProjectCard(props) {
     <>
       <div
         data-aos="fade-up"
-        className="mx-5 md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4 z-1"
+        className="md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4 z-1 pb-4" 
       >
         {props.img && (
-          <div className="w-2/3 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center mx-auto">
+          <div className="md:w-2/3 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center mx-auto">
             <img
               src={props.img}
               className="object-fill h-1/2 items-center rounded-lg px-0.5"
@@ -27,10 +27,10 @@ export default function ProjectCard(props) {
           </div>
         )}
         <div
-          className={`p-4 bo rounded-lg mx-auto ${
+          className={`p-4 rounded-lg mx-auto${
             props.img
-              ? "w-2/3 border-x border-b rounded-t-none"
-              : "w-2/3 border"
+              ? "md:w-2/3 border-x border-b rounded-t-none"
+              : "md:w-2/3 border"
           }`}
         >
           <div className="flex justify-between  ">

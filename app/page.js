@@ -34,7 +34,7 @@ export default function Home() {
           <main className={`flex fira flex-col justify-between`}>
             <AboutMe />
             <Skills />
-            <div className="my-4 mx-auto overflow-hidden">
+            <div className="py-12 mx-auto overflow-hidden px-4 md:px-0 border-b">
               <h2 className="text-3xl font-bold">Featured Projects</h2>
               <div>
                 {projects

@@ -2,11 +2,11 @@ import React from "react";
 export default function Achievements() {
   return (
     <>
-      <div className="border-t pt-2">
-        <span className="text-2xl font-bold">
+      <div className="my-12 px-4 md:px-0">
+        <span className="text-3xl font-bold">
           Achievements / Extra-curricular
         </span>
-        <ul className="gap-y-2 grid grid-cols-1 py-6 text-lg">
+        <ul className="gap-y-4 grid grid-cols-1 pt-8 text-lg ">
           <li>Smart India Hackathon 2022 Finalist @ Mangalore, India</li>
           <li>
             <span className="text-[#f90]">Amazon</span> Machine Learning Summer

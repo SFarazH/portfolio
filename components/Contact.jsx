@@ -11,10 +11,8 @@ export default function Contact() {
   return (
     <>
       <div
-        // className="fixed bottom-0 w-full md:w-auto"
-        // style={{ width: "inherit" }}
       >
-        <div className="flex flex-wrap justify-around my-10">
+        <div className="flex flex-wrap justify-around my-4 border-t py-8">
           <Link href="mailto:syedfarazhasan1@gmail.com" target="_blank">
             <SiGmail color="#ff4343" size="2em" className={hover} />
           </Link>

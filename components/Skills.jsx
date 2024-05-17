@@ -19,10 +19,11 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <>
-      <div className=" my-4 px-4 md:px-0 border-b">
-        <h2 className="text-3xl font-bold">Skills</h2>
-        <div className="my-4 w-full">
-          <p className="text-xl py-1 ">Frontend</p>
+      <div className="px-4 md:px-0 border-b py-12">
+        <h2 className="text-3xl font-bold pb-4">Skills</h2>
+
+        <div className="mt-4 mb-12">
+          <p className="text-2xl py-1 text-[#FFF8DC] ">Frontend</p>
           <div className="flex flex-wrap gap-8 py-1">
             <Image alt='logo' src={js} width={60} className="rounded-lg" />
             <Image alt='logo' src={react} width={60} />
@@ -31,9 +32,9 @@ export default function Skills() {
             <Image alt='logo' src={bs} width={60} />
           </div>
         </div>
-        <div className="mt-3 mb-4">
-          <p className="text-xl py-1 ">Backend / DevOps</p>
-          <div className="flex flex-wrap  gap-8 py-1">
+        <div className="my-12">
+          <p className="text-2xl py-1 text-[#FFF8DC]">Backend / Database</p>
+          <div className="flex flex-wrap gap-8 py-1">
             <Image alt='logo' src={node} width={60} />
             <Image alt='logo' src={ex} width={60} style={{ color: "white" }} />
             <Image alt='logo' src={dj} width={60} />
@@ -42,9 +43,9 @@ export default function Skills() {
             <Image alt='logo' src={sql} width={65} />
           </div>
         </div>
-        <div className="mt-2 mb-4">
-          <p className="text-xl pb-4 ">Machine Learning / Data Science</p>
-          <div className="flex flex-wrap  gap-8 py-1">
+        <div className="mt-12">
+          <p className="text-2xl py-1 text-[#FFF8DC]">Machine Learning / Data Science</p>
+          <div className="flex flex-wrap gap-8 py-1">
             <Image alt='logo' src={py} width={60} />
             <Image alt='logo' src={r} width={60} />
             <Image alt='logo' src={j} width={60} />
