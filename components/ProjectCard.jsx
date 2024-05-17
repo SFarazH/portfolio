@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
     <>
       <div
         data-aos="fade-up"
-        className="md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4 z-1 pb-4" 
+        className="md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4 z-1" 
       >
         {props.img && (
           <div className="md:w-2/3 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center mx-auto">
@@ -27,7 +27,7 @@ export default function ProjectCard(props) {
           </div>
         )}
         <div
-          className={`p-4 rounded-lg mx-auto${
+          className={`p-4 bo rounded-lg mx-auto ${
             props.img
               ? "md:w-2/3 border-x border-b rounded-t-none"
               : "md:w-2/3 border"
