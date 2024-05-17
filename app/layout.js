@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
       <body className="md:mx-auto md:w-3/4 lg:w-1/2 bg-neutral-900">
         <Navbar />
         {children}
-        <Contact />
       </body>
     </html>
   );

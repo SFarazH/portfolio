@@ -8,12 +8,12 @@ import Link from "next/link";
 export default function ProjectCard(props) {
   return (
     <>
-      <div className="sm:flex mx-5 md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden h-fit gap-4">
+      <div className="sm:flex mx-5 md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4">
         {props.img && (
-          <div className="w-full sm:w-1/2 sm:w-auto md:w-1/2 overflow-hidden py-2 md:p-1 flex items-center justify-center">
+          <div className="w-full sm:w-1/2 sm:w-auto md:w-1/2 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center">
             <img
               src={props.img}
-              className="object-fill items-center max-h-56 sm:h-100 lg:max-h-full rounded-lg"
+              className="object-fill items-center max-h-56 lg:max-h-full rounded-lg"
             />{" "}
             {/**rounded-t-lg md:rounded-t-none md:rounded-l-lg */}
           </div>
@@ -36,7 +36,10 @@ export default function ProjectCard(props) {
               </Link>
             </div>
           </div>
-          <p className="my-4">{props.details}</p>
+          <p
+            className="my-4"
+            dangerouslySetInnerHTML={{ __html: props.details }}
+          ></p>
           <div className="flex flex-wrap gap-3">
             {props.tech?.map((tech) => {
               return (

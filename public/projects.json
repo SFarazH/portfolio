@@ -1,43 +1,44 @@
 [
   {
     "title": "AttendEase",
-    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "description": "A web app, primarily for RCOEM students to check their attendance in a user friendly interface, without the hassle in less than half the time!",
     "github": "https://github.com/SFarazH/attendease",
     "live": "https://attendease.hopto.org",
-    "tech": ["Python", "Django"],
-    "img": "/image.png",
+    "tech": ["Python", "Django", "AWS"],
+    "img": "/attendease.png",
     "ft": true
   },
   {
     "title": "Algorithmic Trading",
-    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "description": "Developed a stock prediction model, which predicts top stocks from each sector based on their price change in different time periods such as 1month, 3month, 6month, 1year, 3year, etc. ",
     "github": "https://github.com/SFarazH/attendease",
     "live": "https://attendease.hopto.org",
     "tech": ["Python", "Jupyter"],
     "ft": true
   },
   {
-    "title": "OTP Verification API",
-    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
-    "github": "https://github.com/SFarazH/attendease",
-    "live": "https://attendease.hopto.org",
-    "tech": ["Node.js", "Express", "MongoDB", "AWS"],
-    "ft": false
-  },
-  {
     "title": "Portfolio",
-    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "description": "Developed a portofolio to showcase skills, projects and experiences using Next.js and Tailwind CSS",
     "github": "https://github.com/SFarazH/attendease",
     "live": "https://attendease.hopto.org",
     "tech": ["nextjs", "Tailwind"],
     "ft": true
   },
   {
+    "title": "OTP Verification API",
+    "description": "Created an API to register and verify users using OTP and update user data after authentication. Integrated libraries such as nodemailer and JWT.",
+    "github": "https://github.com/SFarazH/attendease",
+    "live": "https://attendease.hopto.org",
+    "tech": ["Node.js", "Express", "MongoDB", "AWS"],
+    "ft": false
+  },
+  {
     "title": "Application Tracker",
-    "description": "lorem ispum rdtfygbuh e rdftyhu fvybhu ftvbhu ftvbhu tvybhu rctvbhu ctvybhu tvbghun vbghu tybuh vbhu vybhu ybhunj ybuh",
+    "description": "Created a full stack application to help users save their job application details at a single place with details such as - Company, Role and Status. <br/>Added notes section to note important points and Resume section to save different resumes for specific roles.",
     "github": "https://github.com/SFarazH/attendease",
     "live": "https://attendease.hopto.org",
     "tech": ["React", "Express", "Node.js", "MongoDB", "AWS"],
-    "ft": false
+    "img": "/at.png",
+    "ft": true
   }
 ]
