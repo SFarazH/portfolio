@@ -55,7 +55,7 @@ const Navbar = () => {
 
   return (
     <ThemeProvider enableSystem={true} attribute="class">
-      <header className="flex justify-between md:px-1 py-4 shadow-md fira md:border-b sticky top-0 opacity-100 px-4 bg-neutral-900">
+      <header className="flex justify-between md:px-1 py-4 shadow-md fira md:border-b sticky top-0 opacity-100 px-4 bg-neutral-900 z-50">
         <h2 className="cursor-pointer font-bold flex items-center text-2xl">
           faraz
         </h2>

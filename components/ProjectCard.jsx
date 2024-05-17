@@ -1,28 +1,36 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 export default function ProjectCard(props) {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
-      <div className="sm:flex mx-5 md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4">
+      <div
+        data-aos="fade-up"
+        className="mx-5 md:mx-0 rounded-lg my-12 rounded-3xl overflow-hidden gap-4 z-1"
+      >
         {props.img && (
-          <div className="w-full sm:w-1/2 sm:w-auto md:w-1/2 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center">
+          <div className="w-2/3 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center mx-auto">
             <img
               src={props.img}
-              className="object-fill items-center max-h-56 lg:max-h-full rounded-lg"
+              className="object-fill h-1/2 items-center rounded-lg px-0.5"
             />{" "}
             {/**rounded-t-lg md:rounded-t-none md:rounded-l-lg */}
           </div>
         )}
         <div
-          className={`p-4 rounded-lg  ${
+          className={`p-4 bo rounded-lg mx-auto ${
             props.img
-              ? "w-full sm:w-1/2 md:w-1/2 border-x border-b rounded-t-none md:border-l-0 md:rounded-r-lg md:border-r md:border-y md:rounded-l-none  "
-              : "w-full border"
+              ? "w-2/3 border-x border-b rounded-t-none"
+              : "w-2/3 border"
           }`}
         >
           <div className="flex justify-between  ">
