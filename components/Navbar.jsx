@@ -63,7 +63,11 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <ul className="hidden md:flex gap-4 font-medium text-lg">
           {navLinks.map((link) => (
-            <Link target={link.id === 4 ? "_blank" : "_self"} href={link.href}>
+            <Link
+              key={link.id}
+              target={link.id === 4 ? "_blank" : "_self"}
+              href={link.href}
+            >
               <li
                 key={link.id}
                 className={`${navLinkClasses} flex items-center ${

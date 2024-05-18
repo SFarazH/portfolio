@@ -39,9 +39,10 @@ export default function Home() {
               <div>
                 {projects
                   .filter((project) => project.ft)
-                  .map((project) => (
-                    <ProjectCard
-                      className='mx-auto'
+                  .map((project, index) => (
+                    <ProjectCard  
+                      key={index}
+                      className="mx-auto"
                       img={project.img}
                       title={project.title}
                       details={project.description}
