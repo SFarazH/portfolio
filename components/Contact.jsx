@@ -2,7 +2,7 @@ import React from "react";
 import { SiGmail } from "react-icons/si";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-import linkedin from "../public/icons/Linkedin.svg";
+import linkedin from "../public/icons/LinkedIn.svg";
 import Image from "next/image";
 import Link from "next/link";
 
