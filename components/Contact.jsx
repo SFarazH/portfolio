@@ -23,7 +23,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/syed-faraz-hasan"
             target="_blank"
           >
-            <Image src={linkedin} height={32} className={hover} />
+            <Image alt="LinkedIn" src={linkedin} height={32} className={hover} />
           </Link>
           <Link href="https://github.com/SFarazH" target="_blank">
             <AiFillGithub size="2em" className={hover} />

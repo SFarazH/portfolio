@@ -35,8 +35,9 @@ export default function Home() {
               Projects
             </h2>
 
-            {projects.map((project) => (
+            {projects.map((project, index) => (
               <ProjectCard
+                key={index}
                 img={project.img}
                 title={project.title}
                 details={project.description}
