@@ -21,9 +21,8 @@ export default function ProjectCard(props) {
           <div className="md:w-2/3 overflow-hidden pb-1 px-0.5 md:p-0 flex items-center justify-center mx-auto">
             <img
               src={props.img}
-              className="object-fill h-1/2 items-center rounded-lg px-0.5"
-            />{" "}
-            {/**rounded-t-lg md:rounded-t-none md:rounded-l-lg */}
+              className="object-fill md:h-1/2 items-center rounded-lg px-0.5"
+            />
           </div>
         )}
         <div

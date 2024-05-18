@@ -18,7 +18,7 @@ export default function Home() {
     <>
       {loader ? (
         <>
-          <div className="flex justify-around my-24">
+          <div className="flex justify-around my-24 ">
             <InfinitySpin
               visible={false}
               width="200"
@@ -30,8 +30,8 @@ export default function Home() {
         </>
       ) : (
         <>
-          <main className={`flex fira flex-col justify-between`}>
-            <h2 className="text-3xl font-semibold text-center my-8">
+          <main className={`flex fira flex-col justify-between px-4 md:px-0`}>
+            <h2 className="text-3xl font-semibold text-center mt-8">
               Projects
             </h2>
 
