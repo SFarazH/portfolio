@@ -35,12 +35,12 @@ export default function ProjectCard(props) {
           <div className="flex justify-between  ">
             <p className="text-2xl font-bold">{props.title}</p>
             <div className="flex gap-4  items-center">
-              <Link href={String(props.github)} target="_blank">
+              {props.github && <Link href={String(props.github)} target="_blank">
                 <AiFillGithub color="white" size="2em" />
-              </Link>
-              <Link href={String(props.live)} target="_blank">
+              </Link>}
+              {props.live && <Link href={String(props.live)} target="_blank">
                 <FaExternalLinkAlt color="white" size="1.7em" />
-              </Link>
+              </Link>}
             </div>
           </div>
           <p
