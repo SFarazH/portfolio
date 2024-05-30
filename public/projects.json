@@ -11,8 +11,8 @@
   {
     "title": "Application Tracker",
     "description": "Created a full stack application to help users save their job application details at a single place with details such as - Company, Role and Status. <br/>Added notes section to note important points and Resume section to save different resumes for specific roles.",
-    "github": "https://github.com/SFarazH/attendease",
-    "live": "https://attendease.hopto.org",
+    "github": "https://github.com/SFarazH/applicationtracker",
+    "live": "",
     "tech": ["React", "Express", "Node.js", "MongoDB", "AWS"],
     "img": "/at.png",
     "ft": true
