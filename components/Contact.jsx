@@ -10,8 +10,7 @@ export default function Contact() {
   const hover = "hover:scale-125 transition duration-150";
   return (
     <>
-      <div
-      >
+      <div>
         <div className="flex flex-wrap justify-around my-4 border-t py-8">
           <Link href="mailto:syedfarazhasan1@gmail.com" target="_blank">
             <SiGmail color="#ff4343" size="2em" className={hover} />
@@ -23,7 +22,12 @@ export default function Contact() {
             href="https://www.linkedin.com/in/syed-faraz-hasan"
             target="_blank"
           >
-            <Image alt="LinkedIn" src={linkedin} height={32} className={hover} />
+            <Image
+              alt="LinkedIn"
+              src={linkedin}
+              height={32}
+              className={hover}
+            />
           </Link>
           <Link href="https://github.com/SFarazH" target="_blank">
             <AiFillGithub size="2em" className={hover} />

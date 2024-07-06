@@ -1,5 +1,4 @@
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
 
@@ -12,9 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head />
-      <body className="md:mx-auto md:w-3/4 lg:w-1/2 bg-neutral-900">
+      <body className="md:mx-auto md:w-3/4 lg:w-1/2 bg-neutral-900 min-h-screen flex flex-col">
         <Navbar />
-        {children}
+        <div className="flex-grow">{children}</div>
+        <div className="mt-auto">
+          <Contact />
+        </div>
       </body>
     </html>
   );

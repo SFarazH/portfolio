@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <Achievements />
           </main>
-          <Contact />
+          {/* <Contact /> */}
         </>
       )}
     </>
