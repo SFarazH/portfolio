@@ -56,14 +56,13 @@ export default function Home() {
             </div>
             <Achievements />
           </main>
-          {/* <Contact /> */}
+          <Link href="/hire">
+            <button className="fixed top-20 right-2 md:right-20 p-1 bg-blue-500 text-lg font-semibold text-white rounded-full shadow-[0_0_5px_#08f,0_0_5px_#08f,0_0_5px_#08f] hover:bg-blue-700 w-20 h-20">
+              Hire me
+            </button>
+          </Link>
         </>
       )}
-      <Link href="/hire">
-        <button className="fixed top-20 right-2 md:right-20 p-2 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-700">
-          Hire me
-        </button>
-      </Link>
     </>
   );
 }
