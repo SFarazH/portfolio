@@ -15,7 +15,7 @@ const Navbar = () => {
     {
       id: 4,
       text: "resume",
-      href: "https://docs.google.com/document/d/1O9XIbZo4GL4Zg7c4-oJpRzi39b-6KoUZoAdv1dCUEvY/edit?usp=sharing",
+      href: "https://drive.google.com/file/d/1EC_eZv5WPSzCCEONFPvfl5vg8dwWQXTm/view?usp=sharing",
     },
   ];
 
