@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Achievements from "@/components/Achievements";
 import { InfinitySpin } from "react-loader-spinner";
+import Link from "next/link";
 
 export default function Home() {
   const [loader, toggleLoader] = useState(true);
@@ -40,7 +41,7 @@ export default function Home() {
                 {projects
                   .filter((project) => project.ft)
                   .map((project, index) => (
-                    <ProjectCard  
+                    <ProjectCard
                       key={index}
                       className="mx-auto"
                       img={project.img}
@@ -58,6 +59,11 @@ export default function Home() {
           {/* <Contact /> */}
         </>
       )}
+      <Link href="/hire">
+        <button className="fixed top-20 right-2 md:right-20 p-2 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-700">
+          Hire me
+        </button>
+      </Link>
     </>
   );
 }

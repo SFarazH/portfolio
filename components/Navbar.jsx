@@ -31,7 +31,7 @@ const Navbar = () => {
       >
         <AiOutlineClose size="1.5em" />
       </span>
-      <ul className="flex flex-col gap-4 font-medium text-white text-center flex justify-around mt-16">
+      <ul className="flex flex-col gap-4 font-medium text-white text-center justify-around mt-16">
         {navLinks.map((link) => (
           <Link
             key={link.id}

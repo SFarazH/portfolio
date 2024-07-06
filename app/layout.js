@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
+import Link from "next/link";
 
 export const metadata = {
   title: "Faraz Hasan",

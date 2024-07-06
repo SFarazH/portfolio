@@ -3,7 +3,7 @@ import { React, useState, useEffect } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import projects from "../../public/projects.json";
 import { InfinitySpin } from "react-loader-spinner";
-import Contact from "@/components/Contact";
+import Link from "next/link";
 
 export default function Home() {
   const [loader, toggleLoader] = useState(true);
@@ -47,7 +47,11 @@ export default function Home() {
               />
             ))}
           </main>
-          {/* <Contact /> */}
+          <Link href="/hire">
+            <button className="fixed top-20 md:top-36 right-2 md:right-60 p-2 md:p-4 md:text-xl bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-700">
+              Hire me
+            </button>
+          </Link>
         </>
       )}
     </>
