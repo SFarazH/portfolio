@@ -18,6 +18,15 @@
     "ft": true
   },
   {
+    "title": "Company Finances Manager",
+    "description": "Architected a web app to help display all the finances of a company at a single place. Added functionalities to manage clients, projects, employees, payments, etc.<br/> Addad an interactive dashboard to help visualize finances and enabled Key Point Indicators.",
+    "github": "https://github.com/SFarazH/company-finances",
+    "live": "https://company-finance.vercel.app/",
+    "tech": ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
+    "img": "/company_finance.png",
+    "ft": true
+  },
+  {
     "title": "Portfolio",
     "description": "Developed a portofolio to showcase skills, projects and experiences using Next.js and Tailwind CSS",
     "github": "https://github.com/SFarazH/portfolio",
