@@ -56,7 +56,7 @@ export default function Home() {
                 frontend and backend
               </span>{" "}
               development, including using Electron.js to deliver web apps.{" "}
-              <br /> Along with this, I have also delivered independant projects
+              <br /> Along with this, I have also delivered independent projects
               including{" "}
               <span className="bg-amber-400 text-black rounded-lg px-1.5">
                 Tourism Website
@@ -78,7 +78,7 @@ export default function Home() {
                 Skin Cancer Detection
               </span>{" "}
               using ResNet . Both of these research papers have been published
-              at different conferrences - namely{" "}
+              at different conferences - namely{" "}
               <span className="bg-red-500 rounded-lg px-1.5">DAPCOM 2024</span>{" "}
               and{" "}
               <span className="bg-red-500 rounded-lg px-1.5">AITC 2024</span>.
