@@ -22,6 +22,7 @@
     "title": "AttendEase",
     "description": "A web app, primarily for RCOEM students to check their attendance in a user friendly interface, without the hassle in less than half the time!",
     "github": "https://github.com/SFarazH/attendease",
+    "live":"https://attendease.hopto.org/",
     "tech": ["Python", "Django", "AWS"],
     "img": "/attendease.png",
     "ft": true
