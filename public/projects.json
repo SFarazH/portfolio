@@ -27,6 +27,14 @@
     "ft": true
   },
   {
+    "title": "Bingo player!",
+    "description": "Created an app to geenrate BINGO cards, along with automatic checks for lines completed and to check if you won! <br/> Little surpise if you reach BINGO btw...",
+    "github": "https://github.com/SFarazH/bingo",
+    "tech": ["React"],
+    "img":"/projects/bingo.png",
+    "live":"http://bingo-beta-ten.vercel.app/",
+    "ft": true
+  },{
     "title": "Portfolio",
     "description": "Developed a portofolio to showcase skills, projects and experiences using Next.js and Tailwind CSS",
     "github": "https://github.com/SFarazH/portfolio",
