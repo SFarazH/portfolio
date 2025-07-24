@@ -12,7 +12,7 @@ export default function AboutMe() {
         <div className="w-full md:w-2/3 md:pr-8 order-last md:order-none">
           <h3 className="text-3xl lg:text-5xl font-bold">Faraz Hasan</h3>
           <h3 className="text-xl lg:text-2xl my-2 text-green-500">
-            Student, Full Stack Developer, <br /> Chai enthusiast;
+            Software Developer, ML Enthusiast<br /> Chai enthusiast;
           </h3>
           <p className="text-gray-400 mt-3">
             CS Undergrad passionate about Web Dev and Data Science! <br />Love to solve problems using skills <br /> Enjoy building scalable backends using Node and Express + AWS Lambda <br />Focus on code quality over quantity 💪  
