@@ -16,6 +16,8 @@ import pyt from "../public/icons/PyTorch.svg";
 import r from "../public/icons/R.svg";
 import java from "../public/icons/Java.svg";
 import spring from "../public/icons/Spring.svg";
+import ts from "../public/icons/TypeScript.svg";
+import nestjs from "../public/icons/Nestjs.svg";
 import Image from "next/image";
 
 export default function Skills() {
@@ -33,8 +35,10 @@ export default function Skills() {
           <p className="text-2xl py-1 text-[#FFF8DC] ">Frontend</p>
           <div className="flex flex-wrap gap-8 py-1">
             <Image title="Javascript" src={js} {...options} />
+            <Image title="Typescript" src={ts} {...options} />
             <Image title="React" src={react} {...options} />
-            <Image title="Next" src={Next} {...options} />
+            <Image title="NextJS" src={Next} {...options} />
+            <Image title="NestJS" src={nestjs} {...options} />
             <Image title="Tailwind" src={tailwind} {...options} />
             <Image title="Bootstrap" src={bs} {...options} />
           </div>
