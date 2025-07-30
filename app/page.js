@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import Achievements from "@/components/Achievements";
 import { InfinitySpin } from "react-loader-spinner";
 import Link from "next/link";
+import CareerSection from "@/components/Careers";
 
 export default function Home() {
   const [loader, toggleLoader] = useState(true);
@@ -35,6 +36,7 @@ export default function Home() {
           <main className={`flex fira flex-col justify-between`}>
             <AboutMe />
             <Skills />
+            <CareerSection />
             <div className="py-12 mx-auto overflow-hidden px-4 md:px-0 border-b">
               <h2 className="text-3xl font-bold">Featured Projects</h2>
               <div>
