@@ -18,6 +18,12 @@ import java from "../public/icons/Java.svg";
 import spring from "../public/icons/Spring.svg";
 import ts from "../public/icons/TypeScript.svg";
 import nestjs from "../public/icons/Nestjs.svg";
+import solr from "../public/icons/Solr.svg";
+import git from "../public/icons/Git.svg";
+import docker from "../public/icons/Docker.svg";
+import postman from "../public/icons/Postman.svg";
+import jira from "../public/icons/Jira.svg";
+import vercel from "../public/icons/Vercel.svg";
 import Image from "next/image";
 
 export default function Skills() {
@@ -56,9 +62,9 @@ export default function Skills() {
             <Image title="Java" src={java} {...options} />
             <Image title="Spring" src={spring} {...options} />
             <Image title="Django" src={dj} {...options} />
-            <Image title="AWS Console" src={aws} {...options} />
             <Image title="MongoDB" src={mongo} {...options} />
             <Image title="SQL" src={sql} {...options} width={65} />
+            <Image title="Apache Solr" src={solr} {...options} width={60} />
           </div>
         </div>
         <div className="mt-12">
@@ -70,6 +76,25 @@ export default function Skills() {
             <Image title="R" src={r} {...options} />
             <Image title="Jupyter Notebook" src={j} {...options} />
             <Image title="PyTorch" src={pyt} {...options} />
+          </div>
+        </div>
+        <div className="mt-12">
+          <p className="text-2xl py-1 text-[#FFF8DC]">DevOps / Tools</p>
+          <div className="flex flex-wrap gap-8 py-1">
+            <Image title="Git" src={git} {...options} />
+            <Image title="Docker" src={docker} {...options} />
+            <Image title="AWS Console" src={aws} {...options} />
+            <Image title="Postman" src={postman} {...options} />
+            <Image title="Jira" src={jira} {...options} />
+            <div className="bg-white rounded-full flex items-center">
+              <Image
+                title="Vercel"
+                src={vercel}
+                {...options}
+                className="p-3"
+                width={65}
+              />
+            </div>
           </div>
         </div>
       </div>
