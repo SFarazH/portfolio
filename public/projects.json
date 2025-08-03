@@ -9,6 +9,12 @@
     "ft": true
   },
   {
+    "title": "DOI Management System",
+    "description": "Designed and developed a Spring Boot application for managing Digital Object Identifiers (DOIs) for research articles. <br/> Enabled CRUD operations for structured article management under verified journals and publishers.<br/> Integrated Apache Solr for full-text search indexing of scholarly articles. <br/>Utilized Docker to containerize the application, ensuring easy deployment and simplified dependency management across infrastructure.",
+    "tech": ["Java","Docker", "Spring", "Solr", "MongoDB"],
+    "ft": true
+  },
+  {
     "title": "Company Finances Manager",
     "description": "Architected a web app to help display all the finances of a company at a single place. Added functionalities to manage clients, projects, employees, payments, etc.<br/> Addad an interactive dashboard to help visualize finances and enabled Key Point Indicators.",
     "github": "https://github.com/SFarazH/company-finances",
