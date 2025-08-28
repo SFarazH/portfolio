@@ -11,7 +11,14 @@
   {
     "title": "DOI Management System",
     "description": "Designed and developed a Spring Boot application for managing Digital Object Identifiers (DOIs) for research articles. <br/> Enabled CRUD operations for structured article management under verified journals and publishers.<br/> Integrated Apache Solr for full-text search indexing of scholarly articles. <br/>Utilized Docker to containerize the application, ensuring easy deployment and simplified dependency management across infrastructure.",
-    "tech": ["Java","Docker", "Spring", "Solr", "MongoDB"],
+    "tech": ["Java", "Docker", "Spring", "Solr", "MongoDB"],
+    "ft": true
+  },
+  {
+    "title": "Algorithmic Trading",
+    "description": "Developed a stock prediction model, which predicts top stocks from each sector based on their price change in different time periods such as 1month, 3month, 6month, 1year, 3year, etc. ",
+    "github": "https://github.com/SFarazH/algoritmic_trading",
+    "tech": ["Python", "Jupyter"],
     "ft": true
   },
   {
@@ -37,23 +44,17 @@
     "description": "Created an app to geenrate BINGO cards, along with automatic checks for lines completed and to check if you won! <br/> Little surpise if you reach BINGO btw...",
     "github": "https://github.com/SFarazH/bingo",
     "tech": ["React"],
-    "img":"/projects/bingo.png",
-    "live":"http://bingo-beta-ten.vercel.app/",
+    "img": "/projects/bingo.png",
+    "live": "http://bingo-beta-ten.vercel.app/",
     "ft": true
-  },{
+  },
+  {
     "title": "Portfolio",
     "description": "Developed a portofolio to showcase skills, projects and experiences using Next.js and Tailwind CSS",
     "github": "https://github.com/SFarazH/portfolio",
     "live": "https://faraz-three.vercel.app/",
     "tech": ["nextjs", "Tailwind"],
     "img": "/projects/portfolio.png",
-    "ft": true
-  },
-  {
-    "title": "Algorithmic Trading",
-    "description": "Developed a stock prediction model, which predicts top stocks from each sector based on their price change in different time periods such as 1month, 3month, 6month, 1year, 3year, etc. ",
-    "github": "https://github.com/SFarazH/algoritmic_trading",
-    "tech": ["Python", "Jupyter"],
     "ft": true
   },
   {
