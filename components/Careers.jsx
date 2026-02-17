@@ -10,12 +10,26 @@ export default function CareerSection() {
 
   const experiences = [
     {
+      title: "Founder",
+      company: "CliniSync",
+      dates: "Oct 2025 - Present",
+      description: [
+        "Designed and developed a full-stack clinic management platform to streamline appointments, patient records, and clinic operations using the MERN stack and Next.js.",
+        "Created an intuitive Google Calendar-style appointment management system, allowing clinics to efficiently schedule, reschedule, and track appointments.",
+        "Implemented secure medical document storage using AWS S3, ensuring reliable access, scalability, and data protection for clinics.",
+        "Built a responsive dashboard with real-time analytics and role-based access control (RBAC), enabling admins, doctors, and staff to manage workflows efficiently.",
+        "Integrated automated WhatsApp notifications and reminders to reduce missed appointments and improve communication between clinics and patients.",
+        "Implemented authentication, authorization, protected routes, and multi-tenant architecture to ensure secure access to sensitive patient and clinic data.",
+      ],
+    },
+    {
       title: "Software Engineer",
       company: "Pertinent Healthcare </br> USA Dental Solutions",
       dates: "Sep 2024 - Present",
       description: [
         "Integrated Plaid API to securely link bank accounts and display finances seamlessly. Implemented webhooks to ensure instant data sync of around 100 bank accounts.",
-        "Led a team of four developers for the past six months, overseeing code quality, resolving merge conflicts, and mentoring members to deliver optimal solutions.",
+        "Implemented payments using applications such as Worldpay and Prahsys to ensure seamless payments and tracking",
+        "Led a team of four developers for the past year, overseeing code quality, resolving merge conflicts, and mentoring members to deliver optimal solutions.",
         "Built and optimized admin features for flagship products, improving backend performance and frontend responsiveness, reducing response time by up to 50%.",
         "Created and managed more than 50 MongoDB Charts to provide real-time visual analytics, improving decision-making.",
         "Developed cron jobs to automate claim attachment workflows and integrated third-party software to streamline operations.",

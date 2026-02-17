@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       toggleLoader(false);
-    }, 1000);
+    }, 500);
   });
   return (
     <>
